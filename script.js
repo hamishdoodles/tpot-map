@@ -78,7 +78,7 @@ grid();
 
 
 // Read CSV data and place a red square at the grid coordinates
-d3.csv('https://docs.google.com/spreadsheets/d/1z0-5zz4DG9zxZkbSEsss0XmEHhrbKd7YCA54eBPDPQw/export?format=csv&gid=0&single=true&output=csv')
+d3.csv('https://docs.google.com/spreadsheets/d/1BVj2mwCCgGNg_7gpgrP-z5GLZGT4HNA4xuUWblm3-9g/export?format=csv&gid=1371825706&single=true&output=csv')
   .then(data => {
     data.forEach(drawSquare);
     setMapItemOrigins();
